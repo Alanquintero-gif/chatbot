@@ -25,7 +25,7 @@ export function ChatProvider({ children }) {
     "Oliverio Girondo": [ { emisor: 'USUARIO', hora: '10:02', id: 11, texto: 'la costumbre nos teje diariamente una telaraña en las pupilas.', status: 'visto' }]
   });
 
-  const [contactoActivo, setContactoActivo] = useState("Jorge Luis Borges");
+  const [contactoActivo, setContactoActivo] = useState(null);
 
   const eliminarMensaje = (id) => {
     if (!contactoActivo) return;
