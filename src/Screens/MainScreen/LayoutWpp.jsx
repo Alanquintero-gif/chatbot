@@ -56,7 +56,7 @@ export default function LayoutWpp() {
             isMobile ? (showContacts ? "hidden" : "mobile-full") : ""
           }`}
         >
-          {/* ✅ Header visible en mobile y desktop */}
+          
           {contacto && (
             <div className="mobile-header">
               {isMobile && (
