@@ -7,11 +7,13 @@ export function ChatProvider({ children }) {
     "Jorge Luis Borges": [
       { emisor: 'YO', hora: '14:18', id: 1, texto: 'Jorge, estoy desencantado con la escritura. Siempre soñé con estar en tu posición, pero, por alguna extraña razón, siento que nos estamos alejando. ', status: 'visto' }
       ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: 'Uno no es lo que es por lo que escribe, sino por lo que ha leído.', status: 'visto' }
+      ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: 'Sólo aquello que se ha ido es lo que nos pertenece.', status: 'visto' }
       
     ],
     "Julio Cortázar": [
       { emisor: 'YO', hora: '13:30', id: 3, texto: 'Me voy a dormir una siesta', status: 'visto' },
       { emisor: 'USUARIO', hora: '15:03', id: 4, texto: 'Lo malo es eso que llaman despertarse', status: 'visto' }
+      
     ],
     "Alfonsina Storni": [{ emisor: 'USUARIO', hora: '13:22', id: 5, texto: 'Hombre pequeñito...', status: 'visto' }
     ],
