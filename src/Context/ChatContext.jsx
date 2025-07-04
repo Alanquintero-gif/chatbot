@@ -7,7 +7,6 @@ export function ChatProvider({ children }) {
     "Jorge Luis Borges": [
       { emisor: 'YO', hora: '14:18', id: 1, texto: 'Jorge, estoy desencantado con la escritura. Siempre soñé con estar en tu posición, pero, por alguna extraña razón, siento que nos estamos alejando. ', status: 'visto' }
       ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: 'Uno no es lo que es por lo que escribe, sino por lo que ha leído.', status: 'visto' }
-      ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: 'Sólo aquello que se ha ido es lo que nos pertenece.', status: 'visto' }
       
     ],
     "Julio Cortázar": [
