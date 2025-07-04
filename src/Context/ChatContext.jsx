@@ -5,7 +5,7 @@ export const ChatContext = createContext();
 export function ChatProvider({ children }) {
   const [messages, setMessages] = useState({
     "Jorge Luis Borges": [
-      { emisor: 'YO', hora: '14:18', id: 1, texto: 'Jorge, hace mil que no me puedo sentar a escribir. Estoy un poco frustrado', status: 'visto' }
+      { emisor: 'YO', hora: '14:18', id: 1, texto: 'Jorge, estoy desencantado con la escritura. Siempre soñé con estar en tu posición, pero cada vez lo veo menos viable. Y, por momentos, es difícil combatir la frustación', status: 'visto' }
       ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: 'Uno no es lo que es por lo que escribe, sino por lo que ha leído.', status: 'visto' }
       
     ],
