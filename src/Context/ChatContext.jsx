@@ -22,7 +22,8 @@ export function ChatProvider({ children }) {
     ],
     "Rodolfo Walsh": [ { emisor: 'USUARIO', hora: '12:33', id:8, texto: 'Sólo un débil mental puede no desear la paz.', status: 'visto' }],
     "José Hernández": [ { emisor: 'USUARIO', hora: '11:11', id: 9, texto: 'Los hermanos sean unidos...', status: 'visto' }],
-    "Sarmiento": [ { emisor: 'USUARIO', hora: '19:45', id: 10, texto: 'Todos los problemas son problemas de educación.', status: 'visto' }],
+    "Sarmiento": [ { emisor: 'YO', hora: '14:18', id: 1, texto: 'Jorge, estoy desencantado con la escritura. Siempre soñé con estar en tu posición, pero, por alguna extraña razón, siento que nos estamos alejando. ', status: 'visto' },
+      { emisor: 'USUARIO', hora: '19:45', id: 10, texto: 'Todos los problemas son problemas de educación.', status: 'visto' }],
     "Oliverio Girondo": [ { emisor: 'USUARIO', hora: '10:02', id: 11, texto: 'la costumbre nos teje diariamente una telaraña en las pupilas.', status: 'visto' }]
   });
 
