@@ -136,3 +136,13 @@
   opacity: 0.8;
   cursor: default;
 }
+
+.contact-info-link {
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+}
+
+.contact-info-link:hover .contact-name {
+  color: #25d366;
+}
