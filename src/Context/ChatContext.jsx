@@ -6,7 +6,7 @@ export function ChatProvider({ children }) {
   const [messages, setMessages] = useState({
     "Pop ✅": [
       { emisor: 'YO', hora: '14:18', id: 1, texto: 'Quiero saber qué es Instagram ', status: 'visto' }
-      ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: "Hola, Rubito 😊.\n Instagram es una red social, como un álbum de fotos digital donde la gente guarda y comparte imágenes y videos.\nPodés ver lo que otros publican, dejar comentarios y enviar mensajes privados.\nImaginate una caja de zapatos llena de fotos de la familia y amigos, pero que todos pueden ver desde sus casas, usando el teléfono o la computadora.\n ¿Te gustaría que te explique cómo crear una cuenta o subir tu primera foto? 📷💬", status: 'visto' }
+      ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: "Hola, Rubito 😊.\n Instagram es una red social, como un álbum de fotos digital donde la gente guarda y comparte imágenes y videos.\nPodés ver lo que otros publican, dejar comentarios y enviar mensajes privados.\nImaginate una caja de zapatos llena de fotos de la familia y amigos, pero que todos pueden ver desde su teléfono o computadora.\n ¿Te gustaría que te explique cómo crear una cuenta o subir tu primera foto? 📷💬", status: 'visto' }
     
     ]
   });
