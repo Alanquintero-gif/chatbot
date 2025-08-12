@@ -4,29 +4,11 @@ export const ChatContext = createContext();
 
 export function ChatProvider({ children }) {
   const [messages, setMessages] = useState({
-    "Jorge Luis Borges": [
-      { emisor: 'YO', hora: '14:18', id: 1, texto: 'Jorge, estoy desencantado con la escritura. Siempre soñé con estar en tu posición, pero, por alguna extraña razón, siento que nos estamos alejando. ', status: 'visto' }
-      ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: 'Uno no es lo que es por lo que escribe, sino por lo que ha leído.', status: 'visto' }
-      
-    ],
-    "Julio Cortázar": [
-      { emisor: 'YO', hora: '13:30', id: 3, texto: 'Me voy a dormir una siesta', status: 'visto' },
-      { emisor: 'USUARIO', hora: '15:03', id: 4, texto: 'Lo malo es eso que llaman despertarse', status: 'visto' }
-      
-    ],
-    "Alfonsina Storni": [{ emisor: 'USUARIO', hora: '13:22', id: 5, texto: 'Hombre pequeñito...', status: 'visto' }
-    ],
-    "Roberto Arlt": [     { emisor: 'YO', hora: '14: 20', id: 1, texto: 'Roberto, qué futuro nos depara? ', status: 'visto' } 
-      ,{ emisor: 'USUARIO', hora: '18:47', id:6, texto: 'El futuro es nuestro por prepotencia de trabajo.', status: 'visto' }
-    ],
-    "Alejandra Pizarnik": [      { emisor: 'USUARIO', hora: '16:01', id:7, texto: 'Yo moriría por vos. Vos, ¿vivirías por mí?', status: 'visto' }
-    ],
-    "Rodolfo Walsh": [ { emisor: 'YO', hora: '10:30', id: 1, texto: 'Rodolfo, te enteraste de las nuevas guerras que hay en el mundo? ', status: 'visto' }
-      ,{ emisor: 'USUARIO', hora: '12:33', id:8, texto: 'Sólo un débil mental puede no desear la paz.', status: 'visto' }],
-    "José Hernández": [ { emisor: 'USUARIO', hora: '11:11', id: 9, texto: 'Los hermanos sean unidos...', status: 'visto' }],
-    "Sarmiento": [ { emisor: 'YO', hora: '14:18', id: 1, texto: 'Jorge, estoy desencantado con la escritura. Siempre soñé con estar en tu posición, pero, por alguna extraña razón, siento que nos estamos alejando. ', status: 'visto' },
-      { emisor: 'USUARIO', hora: '19:45', id: 10, texto: 'Todos los problemas son problemas de educación.', status: 'visto' }],
-    "Oliverio Girondo": [ { emisor: 'USUARIO', hora: '10:02', id: 11, texto: 'la costumbre nos teje diariamente una telaraña en las pupilas.', status: 'visto' }]
+    "Pop ✅": [
+      { emisor: 'YO', hora: '14:18', id: 1, texto: 'Quiero saber qué es Instagram ', status: 'visto' }
+      ,{ emisor: 'USUARIO', hora: '14:19', id: 2, texto: "Hola, Rubito 😊.\n Instagram es una red social, como un álbum de fotos digital donde la gente guarda y comparte imágenes y videos.\nPodés ver lo que otros publican, dejar comentarios y enviar mensajes privados.\nImaginate una caja de zapatos llena de fotos de la familia y amigos, pero que todos pueden ver desde sus casas, usando el teléfono o la computadora.\n ¿Te gustaría que te explique cómo crear una cuenta o subir tu primera foto? 📷💬", status: 'visto' }
+    
+    ]
   });
 
   const [contactoActivo, setContactoActivo] = useState(null);

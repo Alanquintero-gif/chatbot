@@ -15,7 +15,7 @@ const ContactsList = () => {
     return (
         <div className="contacts-list-container">
             <div className="contacts-header">
-                <h3 className="app-title">Whatsapp</h3>
+                <h3 className="app-title">Messenger</h3>
                 <button className="menu-button">
                     <CiMenuBurger />
                 </button>

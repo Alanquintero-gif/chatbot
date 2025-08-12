@@ -11,7 +11,7 @@ function Message({ message, eliminarMensaje }) {
     <div
       className={`mensaje ${message.emisor === "YO" ? "derecha" : "izquierda"}`}>
       <div className="burbuja">
-        <p>{message.texto}</p>
+        <p style={{ whiteSpace: 'pre-line' }}>{message.texto}</p>
         <div className="info">
           <span className="hora">{message.hora}</span>
           {message.emisor === "YO" && (
