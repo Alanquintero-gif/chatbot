@@ -91,8 +91,10 @@
   align-items: center;
   justify-content: space-between;
   background-color: #161717;
-  padding: 10px;
+  padding: 30px;
   height: 64px;
+  position: sticky;
+  top: 0px;
 }
 
 .back-button {
